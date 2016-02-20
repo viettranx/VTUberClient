@@ -2,8 +2,8 @@
 //  OAuthViewController.h
 //  FoodyMobile
 //
-//  Created by Duc Trinh on 12/7/12.
-//  Copyright (c) 2012 Foody Corp. All rights reserved.
+//  Created by Tran Viet on 2/19/16.
+//  Copyright © 2016 viettranx. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
