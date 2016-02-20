@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC2247A21C774021004A0B01 /* UberProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2247A11C774021004A0B01 /* UberProduct.m */; };
+		FC2247A61C777B80004A0B01 /* EstPriceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2247A51C777B80004A0B01 /* EstPriceViewController.m */; };
+		FC2247D21C784C87004A0B01 /* VTUberClient.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2247C71C784C87004A0B01 /* VTUberClient.m */; };
+		FC2247D31C784C87004A0B01 /* VTUberClientRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2247C91C784C87004A0B01 /* VTUberClientRequest.m */; };
+		FC2247D41C784C87004A0B01 /* VTUberClientResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2247CB1C784C87004A0B01 /* VTUberClientResponse.m */; };
+		FC2247D51C784C87004A0B01 /* VTUberLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2247CD1C784C87004A0B01 /* VTUberLoginManager.m */; };
+		FC2247D61C784C87004A0B01 /* VTUberOAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2247CF1C784C87004A0B01 /* VTUberOAuthViewController.m */; };
+		FC2247D71C784C87004A0B01 /* VTUberTokenData.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2247D11C784C87004A0B01 /* VTUberTokenData.m */; };
+		FC32CDDA1C71B65A00EDB6CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC32CDD91C71B65A00EDB6CF /* main.m */; };
+		FC32CDDD1C71B65A00EDB6CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC32CDDC1C71B65A00EDB6CF /* AppDelegate.m */; };
+		FC32CDE01C71B65A00EDB6CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC32CDDF1C71B65A00EDB6CF /* ViewController.m */; };
+		FC32CDE31C71B65A00EDB6CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC32CDE11C71B65A00EDB6CF /* Main.storyboard */; };
+		FC32CDE51C71B65A00EDB6CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC32CDE41C71B65A00EDB6CF /* Assets.xcassets */; };
+		FC32CDE81C71B65A00EDB6CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC32CDE61C71B65A00EDB6CF /* LaunchScreen.storyboard */; };
+		FC32CE101C772BAB00EDB6CF /* UberTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC32CE0F1C772BAB00EDB6CF /* UberTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC2247A01C774021004A0B01 /* UberProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UberProduct.h; sourceTree = "<group>"; };
+		FC2247A11C774021004A0B01 /* UberProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UberProduct.m; sourceTree = "<group>"; };
+		FC2247A41C777B80004A0B01 /* EstPriceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EstPriceViewController.h; sourceTree = "<group>"; };
+		FC2247A51C777B80004A0B01 /* EstPriceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EstPriceViewController.m; sourceTree = "<group>"; };
+		FC2247C61C784C87004A0B01 /* VTUberClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTUberClient.h; sourceTree = "<group>"; };
+		FC2247C71C784C87004A0B01 /* VTUberClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTUberClient.m; sourceTree = "<group>"; };
+		FC2247C81C784C87004A0B01 /* VTUberClientRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTUberClientRequest.h; sourceTree = "<group>"; };
+		FC2247C91C784C87004A0B01 /* VTUberClientRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTUberClientRequest.m; sourceTree = "<group>"; };
+		FC2247CA1C784C87004A0B01 /* VTUberClientResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTUberClientResponse.h; sourceTree = "<group>"; };
+		FC2247CB1C784C87004A0B01 /* VTUberClientResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTUberClientResponse.m; sourceTree = "<group>"; };
+		FC2247CC1C784C87004A0B01 /* VTUberLoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTUberLoginManager.h; sourceTree = "<group>"; };
+		FC2247CD1C784C87004A0B01 /* VTUberLoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTUberLoginManager.m; sourceTree = "<group>"; };
+		FC2247CE1C784C87004A0B01 /* VTUberOAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTUberOAuthViewController.h; sourceTree = "<group>"; };
+		FC2247CF1C784C87004A0B01 /* VTUberOAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTUberOAuthViewController.m; sourceTree = "<group>"; };
+		FC2247D01C784C87004A0B01 /* VTUberTokenData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTUberTokenData.h; sourceTree = "<group>"; };
+		FC2247D11C784C87004A0B01 /* VTUberTokenData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTUberTokenData.m; sourceTree = "<group>"; };
+		FC32CDD51C71B65A00EDB6CF /* VTUberClientExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VTUberClientExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC32CDD91C71B65A00EDB6CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC32CDDB1C71B65A00EDB6CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC32CDDC1C71B65A00EDB6CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC32CDDE1C71B65A00EDB6CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC32CDDF1C71B65A00EDB6CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC32CDE21C71B65A00EDB6CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC32CDE41C71B65A00EDB6CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC32CDE71C71B65A00EDB6CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC32CDE91C71B65A00EDB6CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC32CE0E1C772BAB00EDB6CF /* UberTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UberTableViewCell.h; sourceTree = "<group>"; };
+		FC32CE0F1C772BAB00EDB6CF /* UberTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UberTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC32CDD21C71B65A00EDB6CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC2247A31C774036004A0B01 /* Test Model */ = {
+			isa = PBXGroup;
+			children = (
+				FC2247A01C774021004A0B01 /* UberProduct.h */,
+				FC2247A11C774021004A0B01 /* UberProduct.m */,
+			);
+			name = "Test Model";
+			sourceTree = "<group>";
+		};
+		FC2247C51C784C87004A0B01 /* VTUberClient */ = {
+			isa = PBXGroup;
+			children = (
+				FC2247C61C784C87004A0B01 /* VTUberClient.h */,
+				FC2247C71C784C87004A0B01 /* VTUberClient.m */,
+				FC2247C81C784C87004A0B01 /* VTUberClientRequest.h */,
+				FC2247C91C784C87004A0B01 /* VTUberClientRequest.m */,
+				FC2247CA1C784C87004A0B01 /* VTUberClientResponse.h */,
+				FC2247CB1C784C87004A0B01 /* VTUberClientResponse.m */,
+				FC2247CC1C784C87004A0B01 /* VTUberLoginManager.h */,
+				FC2247CD1C784C87004A0B01 /* VTUberLoginManager.m */,
+				FC2247CE1C784C87004A0B01 /* VTUberOAuthViewController.h */,
+				FC2247CF1C784C87004A0B01 /* VTUberOAuthViewController.m */,
+				FC2247D01C784C87004A0B01 /* VTUberTokenData.h */,
+				FC2247D11C784C87004A0B01 /* VTUberTokenData.m */,
+			);
+			name = VTUberClient;
+			path = ../VTUberClient;
+			sourceTree = "<group>";
+		};
+		FC32CDCC1C71B65A00EDB6CF = {
+			isa = PBXGroup;
+			children = (
+				FC2247C51C784C87004A0B01 /* VTUberClient */,
+				FC32CDD71C71B65A00EDB6CF /* VTUberClientExample */,
+				FC32CDD61C71B65A00EDB6CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC32CDD61C71B65A00EDB6CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC32CDD51C71B65A00EDB6CF /* VTUberClientExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC32CDD71C71B65A00EDB6CF /* VTUberClientExample */ = {
+			isa = PBXGroup;
+			children = (
+				FC32CDDB1C71B65A00EDB6CF /* AppDelegate.h */,
+				FC32CDDC1C71B65A00EDB6CF /* AppDelegate.m */,
+				FC32CDDE1C71B65A00EDB6CF /* ViewController.h */,
+				FC32CDDF1C71B65A00EDB6CF /* ViewController.m */,
+				FC2247A41C777B80004A0B01 /* EstPriceViewController.h */,
+				FC2247A51C777B80004A0B01 /* EstPriceViewController.m */,
+				FC2247A31C774036004A0B01 /* Test Model */,
+				FC32CE111C772BB800EDB6CF /* Custom Views */,
+				FC32CDE11C71B65A00EDB6CF /* Main.storyboard */,
+				FC32CDE41C71B65A00EDB6CF /* Assets.xcassets */,
+				FC32CDE61C71B65A00EDB6CF /* LaunchScreen.storyboard */,
+				FC32CDE91C71B65A00EDB6CF /* Info.plist */,
+				FC32CDD81C71B65A00EDB6CF /* Supporting Files */,
+			);
+			path = VTUberClientExample;
+			sourceTree = "<group>";
+		};
+		FC32CDD81C71B65A00EDB6CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC32CDD91C71B65A00EDB6CF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC32CE111C772BB800EDB6CF /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC32CE0E1C772BAB00EDB6CF /* UberTableViewCell.h */,
+				FC32CE0F1C772BAB00EDB6CF /* UberTableViewCell.m */,
+			);
+			name = "Custom Views";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC32CDD41C71B65A00EDB6CF /* VTUberClientExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC32CDEC1C71B65A00EDB6CF /* Build configuration list for PBXNativeTarget "VTUberClientExample" */;
+			buildPhases = (
+				FC32CDD11C71B65A00EDB6CF /* Sources */,
+				FC32CDD21C71B65A00EDB6CF /* Frameworks */,
+				FC32CDD31C71B65A00EDB6CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VTUberClientExample;
+			productName = TestUberSDK;
+			productReference = FC32CDD51C71B65A00EDB6CF /* VTUberClientExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC32CDCD1C71B65A00EDB6CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = viettranx;
+				TargetAttributes = {
+					FC32CDD41C71B65A00EDB6CF = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = DYS7TG7PX3;
+					};
+				};
+			};
+			buildConfigurationList = FC32CDD01C71B65A00EDB6CF /* Build configuration list for PBXProject "VTUberClientExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC32CDCC1C71B65A00EDB6CF;
+			productRefGroup = FC32CDD61C71B65A00EDB6CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC32CDD41C71B65A00EDB6CF /* VTUberClientExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC32CDD31C71B65A00EDB6CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC32CDE81C71B65A00EDB6CF /* LaunchScreen.storyboard in Resources */,
+				FC32CDE51C71B65A00EDB6CF /* Assets.xcassets in Resources */,
+				FC32CDE31C71B65A00EDB6CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC32CDD11C71B65A00EDB6CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2247D31C784C87004A0B01 /* VTUberClientRequest.m in Sources */,
+				FC32CDE01C71B65A00EDB6CF /* ViewController.m in Sources */,
+				FC2247A21C774021004A0B01 /* UberProduct.m in Sources */,
+				FC2247D51C784C87004A0B01 /* VTUberLoginManager.m in Sources */,
+				FC2247D41C784C87004A0B01 /* VTUberClientResponse.m in Sources */,
+				FC32CE101C772BAB00EDB6CF /* UberTableViewCell.m in Sources */,
+				FC32CDDD1C71B65A00EDB6CF /* AppDelegate.m in Sources */,
+				FC32CDDA1C71B65A00EDB6CF /* main.m in Sources */,
+				FC2247D61C784C87004A0B01 /* VTUberOAuthViewController.m in Sources */,
+				FC2247A61C777B80004A0B01 /* EstPriceViewController.m in Sources */,
+				FC2247D21C784C87004A0B01 /* VTUberClient.m in Sources */,
+				FC2247D71C784C87004A0B01 /* VTUberTokenData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC32CDE11C71B65A00EDB6CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC32CDE21C71B65A00EDB6CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC32CDE61C71B65A00EDB6CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC32CDE71C71B65A00EDB6CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC32CDEA1C71B65A00EDB6CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC32CDEB1C71B65A00EDB6CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC32CDED1C71B65A00EDB6CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = VTUberClientExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.viettranx.VTUberClientExample;
+				PRODUCT_NAME = VTUberClientExample;
+			};
+			name = Debug;
+		};
+		FC32CDEE1C71B65A00EDB6CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = VTUberClientExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.viettranx.VTUberClientExample;
+				PRODUCT_NAME = VTUberClientExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC32CDD01C71B65A00EDB6CF /* Build configuration list for PBXProject "VTUberClientExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC32CDEA1C71B65A00EDB6CF /* Debug */,
+				FC32CDEB1C71B65A00EDB6CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC32CDEC1C71B65A00EDB6CF /* Build configuration list for PBXNativeTarget "VTUberClientExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC32CDED1C71B65A00EDB6CF /* Debug */,
+				FC32CDEE1C71B65A00EDB6CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC32CDCD1C71B65A00EDB6CF /* Project object */;
+}
